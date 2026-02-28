@@ -13,10 +13,10 @@ int main(void) {
 	
 	k = 1000 / 2 ;
 	number = k * 2 - 1;
-	j=(range_Max - range_Min) / 2 ; //執行次數 
+	j=(range_Max - range_Min) / 2 ; 
 	
 	  for(i=0; i < j; i++){
-	  	if(number > 1000 || number < 1500) //1000~1500的範圍 
+	  	if(number > 1000 || number < 1500) //1000~1500
 	  	number += 2;      
 	  	printf("%d\n",number);
 	  }
